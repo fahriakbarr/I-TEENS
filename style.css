@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: black;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+}
+
+/* ini untuk style navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 5% 1.4rem 5%;
+    background-color: green;
+    position: fixed;
+    max-height: 15%;
+}
+
+.navbar a img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.navbar a img:hover {
+    width: 100px;
+    height: 100px;
+}
+
+.navbar .navbar-nav a {
+    text-decoration: none;
+    margin: 1rem;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.navbar .navbar-nav a:hover {
+    border-bottom: 1px solid white;
+}
+
+/* ini untuk style home */
+.home {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem 4rem;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.home .content {
+    max-width: 40rem;
+    padding: 1.4rem 7%;
+}
+
+.home .content h1 {
+    font-size: 2rem;
+}
+
+.home .content p {
+    font-size: 1.5rem;
+}
+
+.home .content button {
+    font-size: 1.6rem;
+    margin-top: 0.7rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    background-color: green;
+    color: white;
+    padding: 1rem;
+}
+
+.home .content button:hover {
+    background-color: white;
+    color: green;
+}
+
+.home .img-content {
+    padding: 1rem;
+}
+
+.home .img-content img {
+    width: 400px;
+    height: 400px;
+}
+
+/* style untuk about */
+.about {
+    padding: 7rem 7%;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.about h1 {
+    font-size: 2.5rem;
+}
+
+.about .content {
+    margin: 1rem;
+    padding: 1.3rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.about .content img {
+    width: 250px;
+    height: 250px;
+    margin-right: 1.5rem;
+    box-shadow: 0 0 20px gray;
+    border-radius:  5px;
+    border: 1px solid gray;
+}
+
+.about .content p {
+    font-size: 1.2rem;
+}
+
+/* visi misi section */
+.visiMisi {
+    margin-top: 6rem;
+    padding: 7rem 7%;
+    text-align: center;
+}
+
+.visiMisi h1 {
+    font-size: 2.5rem;
+}
+
+.visiMisi .content-visiMisi {
+    display: flex;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.visiMisi .content-visiMisi .visi-content {
+    width: 50%;
+}
+
+.visiMisi .content-visiMisi .misi-content {
+    width: 50%;
+}
+
+.visiMisi .content-visiMisi .visi-list {
+    padding: 1.2rem;
+    background-color: green;
+    margin: 1.3rem;
+    height: 37vh;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    box-shadow: 0 0 15px gray;
+}
+
+.visiMisi .content-visiMisi .visi-list p {
+    font-size: 1.4rem;
+    color: white;
+}
+
+.visiMisi .pembatas {
+    border: 1px solid black;
+}
+
+.visiMisi .content-visiMisi .misi-content .misi-list {
+    padding: 1.4rem;
+}
+
+.visiMisi .content-visiMisi .misi-content .misi-list ul li {
+    list-style: none;
+    font-size: 1.4rem;
+    margin-bottom: 1.2rem;
+}
+
+/* Style untuk benefit section */
+.benefit{
+    display: flex;
+    margin-top: 4rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 9rem 7%;
+}
+
+.benefit h1{
+    font-size: 2.8rem;
+}
+
+.benefit .content-benefit{
+    margin-top: 1rem;
+    max-width: 50rem;
+}
+
+.benefit .content-benefit p{
+    font-size: 1.6rem;
+}
+
+.benefit .content-benefit p span{
+    color: green;
+    font-weight: 800;
+}
+
+.benefit .content-benefit ul{
+    margin: 1.5rem 0 0 1.5rem;
+}
+
+.benefit .content-benefit ul li{
+    font-size: 1rem;
+    margin: 1.5rem;
+    list-style: none;
+    text-align: start;
+    transition: transform 0.2s ease-in-out;
+    cursor: default;
+}
+
+.benefit .content-benefit ul li hr{
+    border: 1px solid black;
+}
+
+.benefit .content-benefit ul li:hover{
+    transform: scale(1.1);
+}
+
+/* style untuk footer */
+footer {
+    background-color: green;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p {
+    font-size: 1.2rem;
+    color: white;
+}
+
+footer p a {
+    color: yellow;
+}
